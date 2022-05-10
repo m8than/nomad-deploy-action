@@ -28,8 +28,8 @@ produce_replaced_nomad_file() {
   fi
 }
 
-ls ./
-ls /
+ls /home
+ls /dev
 if [ -f "$nomad_job_file_path" ]; then
   echo "$nomad_job_file_path exists"
   # export each of the additional_vars
